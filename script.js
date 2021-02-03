@@ -46,3 +46,13 @@ function getInputValue(ticketClass) {
     const ticketClassCount = parseInt(ticketClassInput.value);
     return ticketClassCount;
 };
+
+//book NowButton//
+const bookNowBtn = document.getElementById('book-now');
+bookNowBtn.addEventListener('click', function () {
+    console.log(bookNowBtn);
+    const hiddenFullSec = document.getElementById('hidden');
+    hiddenFullSec.style.display = "none";
+    let showOrderMsg = document.getElementById('bookNowPage');
+    showOrderMsg.style.display = "block";
+});

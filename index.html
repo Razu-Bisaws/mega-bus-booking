@@ -29,7 +29,7 @@
     </header>
 
     <!--Booking Section-->
-    <main class="main-content container">
+    <main id="hidden" class="main-content container">
 
         <div class="booking-content">
             <h1>Mega City Bus</h1>
@@ -121,9 +121,21 @@
                     </div>
                 </div>
             </div>
-            <button class="btn-style">Book Now</button>
+            <button id="book-now" class="btn-style">Book Now</button>
         </div>
     </main>
+    <section>
+        <div style=" display: none; background-color: rgb(26, 73, 26); border-radius: 15px;" id="bookNowPage" class="container">
+            <h1 style="color: rgb(0, 255, 242); padding-top: 150px; text-align: center;">your booking has been
+                successfully processed...</h1>
+            <p style="color: rgb(229, 255, 0); text-align: center;">Booking details send your mail , Please check your
+                mail.</p>
+            <h2 style="color:black; padding-top: 150px; text-align: center;">ThankYou.</h2>
+            <p style="color: white; padding-bottom: 0px; text-align: center;">@2025.Mega Bus. ALL Rights
+                Reserved. Sikagu,USA.</p>
+        </div>
+    </section>
+
     <!-- JavaScript -->
     <script src="script.js"></script>
 </body>
